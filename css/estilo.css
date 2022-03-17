@@ -1,7 +1,13 @@
 body{
     background-color: #00ced1;
+    /* background-image: url("../img/carro_estranho.jpg");
+    background-repeat: no-repeat; */
 }
 
 img{
-    width: 50%;
+    width: 30%;
+}
+
+figure{
+    text-align: center;
 }
