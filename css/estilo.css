@@ -4,7 +4,34 @@ body {
     background-repeat: no-repeat; */
 }
 
-figure {
-  text-align: center;
-  width: 100%;
+.img_topo {
+  width: 30%;
 }
+
+.img_corpo {
+  width: 30%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: justify;
+  text-indent: 35px;
+}
+
+/*
+No font-size, o valor "1em" significa 100%, dependendo do navegador ou tamanho da tela. É responsivo ao aparelho
+
+"text-align: justify" serve para justificar o texto
+"text-indent serve para identar os parágrafo
+
+
+*/
