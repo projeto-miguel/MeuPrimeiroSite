@@ -1,17 +1,21 @@
 body {
-  background-color: #00ced1;
-  /* background-image: url("../img/carro_estranho.jpg");
-    background-repeat: no-repeat; */
+  background-color: #a9a9a9;
 }
-
+h1 {
+  text-align: center;
+}
 .img_topo {
-  width: 30%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.img_corpo {
-  width: 30%;
+.img_2 {
+  width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .container {
   width: 80%;
   margin: auto;
@@ -27,11 +31,15 @@ p {
   text-indent: 35px;
 }
 
-/*
-No font-size, o valor "1em" significa 100%, dependendo do navegador ou tamanho da tela. É responsivo ao aparelho
-
-"text-align: justify" serve para justificar o texto
-"text-indent serve para identar os parágrafo
-
-
-*/
+h3 {
+  text-align: center;
+  font-size: 1.95em;
+}
+ul,
+li {
+  text-align: justify;
+  font-size: 1.5em;
+  display: block;
+  margin-left: 18%;
+  margin-right: auto;
+}
