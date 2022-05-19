@@ -2,27 +2,35 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #eee;
+    background-color: rgb(224, 223, 223);
 }
 
 h1{
-    color: #442400;
+    color: #000f64;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
-.parag{
-    font-size: 2em;
-    background-color: rgb(136, 199, 218);
-    justify-content: justify;
+.logo{
+    font-size: 2.8em;
+}
+
+.container{
+    border: 3px rgb(0, 19, 102) solid;
     height: 80%;
     width: 80%;
-    margin: auto;
-    border: 3px rgb(0, 19, 102) solid;
+    background-color: rgb(136, 199, 218);
     border-radius: 5px;
+    margin: auto;    
+    margin-top: 10px;
+    padding: 5px;
 }
-.parag > p{
-    padding-left: 5px;
+
+.container > p{
+    font-size: 1.8em;
+    justify-content: justify;
+    padding: 5px;
+    line-height: 32px;
 }
 figure{
     text-align: center;
@@ -31,4 +39,21 @@ img{
     width: 30%;
     border: 1px rgb(136, 199, 218) solid;
     border-radius: 10px;
+}
+
+b{
+    font-weight: bold;
+}
+
+footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(202, 202, 202);
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+
 }
