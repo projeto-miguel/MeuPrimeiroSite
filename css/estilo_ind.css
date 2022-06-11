@@ -4,13 +4,32 @@ html{
 body{
     background-color: rgb(224, 223, 223);
 }
+
 h1{
     color: #000f64;
     text-align: center;
     font-size: 2em;
 }
 .logo{
-    font-size: 2.8em;
+    margin-top: 30px;
+    font-size: 2.3em;
+}
+
+/* Formatação de imagens */
+.topo{
+    width: 40%;
+    margin: 30px;
+    border: 1px solid rgb(0, 124, 173);
+}
+.topico{
+    width: 40%;
+    margin-top: 50px;
+}
+figure{
+    text-align: center;
+}
+img{
+    border-radius: 20px;
 }
 
 .box{
@@ -29,14 +48,6 @@ h1{
     padding: 5px;
     line-height: 32px;
 }
-figure{
-    text-align: center;
-    margin-top: 50px;
-}
-img{
-    width: 30%;
-    border-radius: 10px;
-}
 b{
     font-weight: bold;
 }
@@ -52,19 +63,11 @@ footer p{
     font-size: 1.5em;
     font-weight: bold;
 }
-.parag{
-    text-align: center;
-    margin-top: 30px;
-    font-size: 1.4em;
-}
 .subt{
     margin-top: 50px;
     font-size: 2.5em;
 }
-a{
-    color: #eee;
-    text-decoration: none;
-}
+/*
 .parag a:link, .parag a:visited{
     background-color: #000f64;
     padding: 15px;
@@ -73,14 +76,17 @@ a{
     background-color: #283caf;
     transition-duration: .4s;
 }
+*/
 .container{
     margin: auto;
     margin-top: 50px;
     width: 80%;
     height: 80%;
 }
-.container > p{
-    justify-content: justify;
+.parag{
+    text-align: justify;
     padding: 5px;
+    margin-top: 30px;
+    font-size: 1.4em;
     line-height: 32px;
 }
