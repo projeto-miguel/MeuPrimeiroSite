@@ -103,3 +103,9 @@ footer p{
     line-height: 32px;
     text-indent: 25px;
 }
+hr{
+    color: black;
+}
+li{
+    font-size: 1.4em;
+}
