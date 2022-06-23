@@ -109,3 +109,12 @@ hr{
 li{
     font-size: 1.4em;
 }
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 10px ridge #8B4513; 
+    padding-top: 1% ;   
+    padding-bottom: 1%;
+}
