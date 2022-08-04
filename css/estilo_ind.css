@@ -72,11 +72,13 @@ footer p{
 .itens_menu ul{
     text-align: center;
 }
-
 .itens_menu ul li{
     display: inline;
 }
-
+.itens_menu ul li a:last-child{
+    background-color: #59ec6d;
+    color: black;
+}
 .itens_menu ul li a:link, .itens_menu ul li a:visited{
     color: #eee;
     background-color: #000f64;
@@ -117,4 +119,12 @@ td, th {
     border: 10px ridge #8B4513; 
     padding-top: 1% ;   
     padding-bottom: 1%;
+}
+audio{
+    margin: 10px;
+}
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #a0276e;
+  color: #a0276e;
 }
