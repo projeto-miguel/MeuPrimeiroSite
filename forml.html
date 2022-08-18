@@ -5,26 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/form_estilo.css">
+    <link rel="stylesheet" href="css/estilo_ind.css">
     <title>Login</title>
 </head>
 <body>
     <div class="container">
+        <h1>Cadastre-se</h1>
         <div class="fbox">
             <form action="">
-                <label for="fname">Nome:</label>
-                <input type="text" name="fname">
-                <label for="">Email:</label>
-                <input type="email" name="femail">
-                <label for="ftel">Telefone:</label>
-                <input type="tel" name="ftel">
-                <label for="fdate">Data de Nascimento:</label>
-                <input type="date" name="fdate">
-                <label for="">Escolha sua ocupação:</label>
-                <input type="radio" name="r1"><label for="r1">Estudante</label>
-                <input type="radio" name="r2"><label for="r2">Professor</label>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Nome:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="fname" placeholder="José da Silva Souza">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="femail">Email:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" name="femail" placeholder="exemplo@email.com">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="ftel">Telefone:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="tel" name="ftel" placeholder="DDD + número">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fdate">Data de Nascimento:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="date" name="fdate">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="tipo-conta">Tipo de conta:</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="" name="tipo-conta">
+                           <option value="estudante">Estudante</option>
+                           <option value="professor">Professor</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" name="fsubmit" value="Enviar">
+                </div>
+                
+                
+                
+                
+                
+                
+
             </form>
         </div>
     </div>
+    
+    <footer>
+        <p>Desenvolvido por Miguel Carneiro</p>
+    </footer>
 </body>
 </html>

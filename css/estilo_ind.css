@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@250&display=swap');
+
+
 html{
     scroll-behavior: smooth;
 }
 body{
     background-color: rgb(224, 223, 223);
+    font-family: 'Inter', sans-serif;
 }
 
 h1{
     color: #000f64;
     text-align: center;
     font-size: 2em;
+    margin-bottom: 20px;
 }
 .logo{
     margin-top: 30px;
@@ -55,7 +60,7 @@ footer{
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: rgb(0, 19, 102);
-    margin-top: 50px;
+    margin-top: 22%;
 }
 
 footer p{
@@ -128,3 +133,66 @@ audio::-webkit-media-controls-panel {
   background-color: #a0276e;
   color: #a0276e;
 }
+
+input[type=text], input[type=email],input[type=tel],input[type=date], select, textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+select{
+    width: 97.8%;
+    margin-bottom: 15px;
+}
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #000f64;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /*Reorganiza as colunas se a tela tiver menos de 600 pixels de largura*/
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
