@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@250&display=swap');
-
+  /*Reorganiza as colunas se a tela tiver menos de 600 pixels de largura*/
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    font-size: 0.8em;
+  }
+}
 
 html{
     scroll-behavior: smooth;
@@ -125,6 +132,9 @@ td, th {
     padding-top: 1% ;   
     padding-bottom: 1%;
 }
+nav{
+    margin: 0;
+}
 audio{
     margin: 10px;
 }
@@ -138,20 +148,20 @@ input[type=text], input[type=email],input[type=tel],input[type=date], select, te
     width: 95%;
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
+    border-radius: 30px;
+    resize: none;
 }
 select{
     width: 97.8%;
     margin-bottom: 15px;
 }
   
-  label {
+label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-  }
+}
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #000f64;
     color: white;
     padding: 12px 20px;
@@ -159,40 +169,38 @@ select{
     border-radius: 4px;
     cursor: pointer;
     float: right;
-  }
+}
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #45a049;
-  }
+}
   
-  .container {
+.container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-  }
+}
   
-  .col-25 {
+.col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
-  }
+}
   
-  .col-75 {
+.col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
-  }
-  
-  .row:after {
+}
+ 
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
+
+input[type=submit]:hover{
+    background-color: #283caf;
+}
+
   
-  /*Reorganiza as colunas se a tela tiver menos de 600 pixels de largura*/
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
