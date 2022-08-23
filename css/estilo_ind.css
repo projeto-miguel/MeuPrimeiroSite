@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@250&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@250&display=swap');        
   /*Reorganiza as colunas se a tela tiver menos de 600 pixels de largura*/
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
@@ -7,7 +7,11 @@
     font-size: 0.8em;
   }
 }
-
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -80,27 +84,39 @@ footer p{
     margin-top: 50px;
     font-size: 2.5em;
 }
-
-.itens_menu ul{
-    text-align: center;
+#menu_h{
+    background-color: #000f64;
 }
-.itens_menu ul li{
+
+#menu_h ul {
+    padding: 0;
     display: inline;
 }
-.itens_menu ul li a:last-child{
-    background-color: #59ec6d;
-    color: black;
+
+#menu_h ul li {
+    display: inline;
 }
-.itens_menu ul li a:link, .itens_menu ul li a:visited{
-    color: #eee;
-    background-color: #000f64;
-    padding: 15px;
+
+#menu_h ul li a {
+    color: #FFF;
+    padding: 24px;
+    margin-top: 0;
     display: inline-block;
     text-decoration: none;
+    transition: background .4s;
 }
-.itens_menu ul li a:hover{
-    background-color: #283caf;
-    transition-duration: .4s;
+
+#menu_h ul li a:hover {
+    background-color: rgb(29, 43, 105);
+}
+/*qual será a cor quando o mouse passar por cima*/
+
+#menu_h ul li:last-child a {
+    float: right;
+    background-color: #001aac;
+}
+nav{
+    margin: 0;
 }
 
 .container{
@@ -128,12 +144,10 @@ table{
     width: 100%;
 }
 td, th {
-    border: 10px ridge #8B4513; 
+    border: 10px ridge #283caf; 
     padding-top: 1% ;   
     padding-bottom: 1%;
-}
-nav{
-    margin: 0;
+    
 }
 audio{
     margin: 10px;
