@@ -2,60 +2,78 @@
   <head>
     <title>Meu Primeiro Site</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-    <link rel="stylesheet" href="css/estilo.css" />
     <style>
+      body{
+        background-color: aqua;
+      }
       figure{
         text-align:center;
         border:5px solid #fff;
+      }
+      .fixo{
+        width: 100%;
+        position: fixed;
+        background-color: #fff;
+        margin-top: 10px;
+      }
+      .main{
+        height: 900px;
+        width: 100%;
+        position: relative;
+      }
+      .container{
+        margin-top: 50px;
+        background-color: #ff6060;
+      }
+      .topoesq{
+        background-color: greenyellow;
+        position: absolute;
+        top: 16px;
+        left: 16px;
+      }
+      .topodir{
+        background-color: blue;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+      }
+      .baixoesq{
+        background-color: orange;
+        position: absolute;
+        bottom: 16px;
+        left: 16px;
+      }
+      .baixodir{
+        background-color: violet;
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+      }
+      .centro{
+        background-color: green;
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+      }
+      div{
+        font-size: 30pt;
       }
     </style>
   </head>
   <body>
     <header>
-      <h1 style="text-align:center;color:#f00">Logotipo</h1>
-      <figure>
-        <img
-          class="img_topo"
-          src="img/carro_estranho.jpg"
-          alt="Imagem de um carro com 3 rodas"
-        />
-      </figure>
+      <h1>TOPO MENU</h1>
     </header>
 
+    <h1  class="fixo">TESTE POSITION</h1>
     <div class="container">
-      <h1>Descobrimento do Brasil</h1>
-
-      <p style="text-indent:35px">
-        A chegada dos portugueses ao Brasil foi um dos maiores momentos das
-        grandes navegações, processo iniciado pelos portugueses no século XV. As
-        grandes navegações são como conhecemos as expedições exploratórias,
-        organizadas pelos portugueses, no Oceano Atlântico ao longo desse
-        século. Isso só foi possível graças a uma série de fatores.
-      </p>
-
-      <p>
-        Primeiro, a unificação territorial. O território nacional de Portugal
-        foi consolidado em 1249, quando o rei d. Afonso III conseguiu conquistar
-        definitivamente Algarve (região sul de Portugal) dos mouros. Outro fator
-        importante foi a estabilidade política que o país experimentou a partir
-        do final do século XIV.
-      </p>
-
-      <p>
-        Entre 1383 e 1385, aconteceu no país a Revolução de Avis, responsável
-        por colocar João, mestre de Avis no trono de Portugal. Com essa
-        revolução, a dinastia Borgonha teve fim, e a nova dinastia — a de Avis —
-        iniciou-se. Portugal experimentou uma grande estabilidade política que
-        possibilitou ao país vivenciar um desenvolvimento comercial e
-        tecnológico, o que incluiu o desenvolvimento náutico.
-      </p>
-      <figure>
-        <img
-          class="img_corpo"
-          src="img/comidabrasileira3.jpg"
-          alt="imagem de comida refeição"
-        />
-      </figure>
+      <div class="main">
+        <div class="topoesq">teste</div>
+        <div class="topodir">teste</div>
+        <div class="baixoesq">teste</div>
+        <div class="baixodir">teste</div>
+        <div class="centro">teste</div>
+      </div>
     </div>
   </body>
 </html>
