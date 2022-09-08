@@ -27,15 +27,14 @@ h1{
     margin-bottom: 20px;
 }
 .logo{
-    margin-top: 30px;
     font-size: 2.3em;
 }
 
 /* Formatação de imagens */
 .topo{
     width: 40%;
-    margin: 30px;
     border: 1px solid rgb(0, 124, 173);
+    margin: 4.5%;
 }
 .topico{
     width: 40%;
@@ -109,7 +108,7 @@ footer p{
 #menu_h ul li a:hover {
     background-color: rgb(29, 43, 105);
 }
-/*qual será a cor quando o mouse passar por cima*/
+/* Qual será a cor quando o mouse passar por cima*/
 
 #menu_h ul li:last-child a {
     float: right;
@@ -215,6 +214,14 @@ input[type=submit]:hover {
 
 input[type=submit]:hover{
     background-color: #283caf;
+}
+.fixo{
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+}
+header{
+    margin: 0;
 }
 
   
